@@ -1,0 +1,19 @@
+name: "Look Ma, No Newlines!"
+author: "Java"
+category: rev,crypto
+description: print(chr(sum(range(ord(min(str(not())))))))
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{r3v_ch41_v5_hydr4u1ic_pr3s5}
+
+files:
+    - dist/challenge.py
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,6 @@
+services:
+  compressor:
+    privileged: false
+    build: .
+    ports:
+      - "8000:8000"

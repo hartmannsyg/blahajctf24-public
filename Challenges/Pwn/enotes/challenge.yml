@@ -1,0 +1,23 @@
+name: Enotes 2
+author: fern
+category: pwn
+description: Introducing enotes 2, the private edition of enotes! Spin up your own server, and take notes with your friends! All connections are interactive too!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{l1F3_i5_A_R4c3_And_1_4m_Th3_r4c3R}
+
+files:
+  - dist/enotes.c
+  - dist/enotes
+  - dist/ld-linux-x86-64.so.2
+  - dist/libc.so.6
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

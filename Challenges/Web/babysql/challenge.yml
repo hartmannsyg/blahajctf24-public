@@ -1,0 +1,8 @@
+name: BabySQL
+author: FS
+category: web
+description: |
+    > Word around the corner is that a group of hackers opened up a online shop aimed at robbing people of their money. We suspect that the shop uses SQL to query it's db and we need your help to steal the admin credentials and take down the shop.
+
+flags:
+    - blahaj{sQLi_iS_c00l}

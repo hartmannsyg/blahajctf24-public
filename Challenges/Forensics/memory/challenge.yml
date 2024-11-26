@@ -1,0 +1,21 @@
+name: "memory"
+author: "scuffed"
+category: forensics
+description: "The following is a memory dump from a computer. Using Volatility, identify the following details:\n- A suspicious process running on the computer\n- The contents of the last command that was run in a console\n- The name of the computer\n\nCombine the three parts and wrap the flag with blahaj{}. Each part of the flag is made up of only uppercase letters and numbers, and combine them in the order above.\n\nVolatility: https://github.com/stuxnet999/volatility-binaries\n\nLink to memory dump: https://drive.google.com/drive/folders/1d75UeZyRvBiHdqTSXDlqlWAyc2m0QX9H?usp=sharing\n\nMirror link (if the above isn't working): https://drive.google.com/file/d/18_UYW4nCZDhAUn2SNC2cnrK7ECP2b3vn/view?usp=sharing"
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{M3M0R1ESDUMP3DM3M0R1ESR34D}
+
+hints:
+    - "This resource may help: https://blog.onfvp.com/post/volatility-cheatsheet/"
+    - "Maybe you don't have to use the latest version of Volatility? Some commands are available for Volatility 2 only..."
+    - "The Computer Name may not be immediately obtainable... If you haven't heard of Registry Keys, it's time to search those up!"
+
+state: visible
+
+version: "0.1"

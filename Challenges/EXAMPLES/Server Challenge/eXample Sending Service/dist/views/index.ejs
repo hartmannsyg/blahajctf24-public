@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Sending Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .message-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .message-header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .message-content {
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .message-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message-form input,
+        .message-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+        }
+        
+        .message-form textarea {
+            height: 30vh;
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="message-container"> 
+        <div class="message-header">
+            <h1>Send Message to Blahaj 🦈</h1>
+        </div>
+        <div class="message-content">
+            <form class="message-form" method="POST" action="/send">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

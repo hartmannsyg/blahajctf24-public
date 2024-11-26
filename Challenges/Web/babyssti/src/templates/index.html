@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guided SSTI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: left; /* Left align the main heading */
+        }
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 5px;
+            text-align: left; /* Left align subheadings */
+        }
+        p {
+            line-height: 1.6;
+            margin: 15px 0;
+            text-align: left; /* Left align paragraphs */
+        }
+        code {
+            background-color: #eaeaea;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px 0; /* Center the form vertically */
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-align: left; /* Left align labels */
+        }
+        textarea {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        input[type="submit"] {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #1a6f99;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guided SSTI</h1>
+    <h2>What is SSTI?</h2>
+    <p>SSTI (Server-Side Template Injection) occurs when an application incorporates user input into a template without proper validation or sanitization. This oversight can allow an attacker to inject malicious template code, potentially leading to unauthorized access, data leakage, or even remote code execution on the server.</p>
+    
+    <h2>How to exploit SSTI?</h2>
+    <p>An attacker can exploit this vulnerability by injecting Jinja2 template syntax into the input. Instead of providing a normal string, the attacker might input something like <code>{{ 7*7 }}</code>. This tricks the server into executing the code, and the output is 49! You can try it yourself here.</p>
+    
+    <h2>How do I get the flag?</h2>
+    <p>First, please leak the <code>hackerman</code> variable. It will contain further instructions.</p>
+    
+    <form action="/display" method="get">
+        <label for="text">Enter your data:</label>
+        <textarea id="text" name="text" rows="4" cols="50" required spellcheck="false"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,8 @@
+name: SSTI-Golf
+author: FS
+category: web
+description: |
+    > I got bored of code-golfing so I decided to come up with ssti-golfing.
+
+flags:
+    - blahaj{c0nf1g_v4r14bl35_f7w}

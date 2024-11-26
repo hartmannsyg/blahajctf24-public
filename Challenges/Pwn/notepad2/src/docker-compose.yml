@@ -1,0 +1,6 @@
+services:
+  notepad2:
+    privileged: false
+    build: .
+    ports:
+      - "8000:8000"

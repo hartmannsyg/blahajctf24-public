@@ -1,0 +1,12 @@
+name: MRT
+author: hartmannsyg
+category: osint
+description: Help I am stuck in the MRT? Which station am I in? Flag format is `blahaj{mrt_name_in_lowercase}`. Replace spaces with underscores. Leave dashes as is.
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{dover}

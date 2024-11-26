@@ -1,0 +1,9 @@
+name: Printwriter -1
+author: azazo
+category: misc
+description: |
+    I'm not very good at C, so I coded this challenge in Python. Don't have Python 3 yet though, so it's a bit slow... At least it can't be pwned now!
+
+
+flags:
+    - blahaj{0uT_w17h_th3_N3W_4Nd_1N_w1tH_the_Old}

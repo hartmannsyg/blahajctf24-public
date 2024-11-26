@@ -1,0 +1,19 @@
+name: "[DATA EXPUNGED]"
+author: "scuffed"
+category: forensics
+description: A recent breach of the Subliminal Undetectable Systems Institute (SUS Institute) has led to gigabytes of top secret documents being leaked online! However, some of these documents remain redacted... help unveil the secrets that the SUS Institute are trying to hide!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{not_so_private_nor_confidential}
+
+files:
+    - dist/exfiltrated.pdf
+
+state: visible
+
+version: "0.1"

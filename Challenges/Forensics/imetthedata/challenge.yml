@@ -1,0 +1,19 @@
+name: "i met the data"
+author: "scuffed"
+category: forensics
+description: Look, if you had one shot or one opportunity. To store some data in an image in one moment. Would you capture it or just let it slip? Yo. His palms are sweaty, knees weak, arms are heavy. There's vomit on his sweater already, mom's spaghetti.
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{i_can_rhyme_orange_with_banana}
+
+files:
+    - dist/flag.jpg
+
+state: visible
+
+version: "0.1"

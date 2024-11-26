@@ -1,0 +1,20 @@
+{
+  "name": "printwriter-3",
+  "version": "1.0.0",
+  "description": "PrintWriter :/",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^2.0.16",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsdom": "^22.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "puppeteer": "^21.3.8"
+  }
+}

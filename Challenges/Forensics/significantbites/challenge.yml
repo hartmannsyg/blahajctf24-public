@@ -1,0 +1,19 @@
+name: "significant bites"
+author: "scuffed"
+category: forensics
+description: My friend sent me this photo of an apple that she took a few bites out of. Doesn't it look cool? On top of that, she says that she's hidden a message in this photo somehow...
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{1_W4N73D_70_S33_73H_w0rLD_1N_c0L0R}
+
+files:
+    - dist/bad_apple.PNG
+
+state: visible
+
+version: "0.1"

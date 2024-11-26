@@ -1,0 +1,19 @@
+name: "Trashcan Stroll"
+author: "scuffed"
+category: forensics
+description: Behold, a suspiciously large JPG file!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{RubbI5h_on_Th3_MoV3}
+
+files:
+    - dist/silly.jpg
+
+state: visible
+
+version: "0.1"

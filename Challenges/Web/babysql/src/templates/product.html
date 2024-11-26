@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+</head>
+
+<body>
+    <h1>Welcome, {{ username }}! Browse our products below (e.g. enter blahaj to view blahaj products):</h1>
+
+    <form method="POST" action="{{ url_for('product_page') }}">
+        <input type="text" name="search" placeholder="Search products...">
+        <button type="submit">Search</button>
+    </form>
+
+    <div>
+        {% for product in products %}
+        <div>
+            <h2>{{ product['name'] }}</h2>
+            <img src="{{ product['image'] }}" alt="{{ product['name'] }}">
+            <p>{{ product['description'] }}</p>
+            <p>Price: {{ product['price'] }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>

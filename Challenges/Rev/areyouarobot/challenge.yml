@@ -1,0 +1,15 @@
+name: Are You A Robot?
+author: scuffed
+category: rev
+description: "ARE YOU STRUGGLING TO LEVEL UP IN CLASHER KINGS? GET YOUR FREE CRYSTALS AND MANA HERE! TOTALLY LEGIT AND 100% SAFE, YOU JUST NEED TO VERIFY YOU'RE A HUMAN AND IT'S ALL YOURS!\n\nDisclaimer: This challenge may trip Windows Defender or any other antivirus solution you have installed. **The code in this challenge is perfectly safe and will not cause any impact to your computer.** It's advised to simply make an exception for this challenge rather than switching off your antivirus. Also, this website does not actually generate any mana or crystals. Sorry. "
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{free_powershell_glitch}
+
+state: visible
+version: "0.1"

@@ -1,0 +1,15 @@
+name: Club Classics
+author: scuffed
+category: rev
+description: "DJ, fix this mix!!!"
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{BlaH4j_15_BRAT}
+
+state: visible
+version: "0.1"

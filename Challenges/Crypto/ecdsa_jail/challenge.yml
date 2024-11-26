@@ -1,0 +1,7 @@
+name: ecdsa_jail
+author: warri
+category: crypto
+description: I heard jails are tough to protect, so I wrote an ECDSA algorithm such that any input code must be signed with my own private key in order for them to be executed! I heard there's a nasty CVE-2022-21449 vulnerability concerning input validation, so I made a quick patch to it! It should be secure now, right?
+
+flags:
+  - blahaj{CVE-2022-21449_psYch1c_sigNatur3s!}

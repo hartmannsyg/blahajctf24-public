@@ -1,0 +1,21 @@
+name: Model Answer
+author: fern
+category: misc
+description: Heard AI is very popular these days... so I trained my very own AI to protect my servers! And since we all know no human can understand model weights, you can even have the weights I used for my AI! Try and hack me now!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{v3Ry_1nTeL1igEnT_A1}
+
+files:
+  - dist/server.py
+  - dist/ai.h5
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

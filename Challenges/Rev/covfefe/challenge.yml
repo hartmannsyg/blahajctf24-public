@@ -1,0 +1,18 @@
+name: covfefe
+author: scuffed
+category: rev
+description: Covfefe (/koʊˈfɛfi/ koh-FEF-ee, /kəvˈfeɪfeɪ, koʊˈfɛfeɪ/) is a word.
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+files:
+  - dist/Covfefe.jar
+
+flags:
+  - blahaj{BaSESixTy4riNGy0u}
+
+state: visible
+version: "0.1"

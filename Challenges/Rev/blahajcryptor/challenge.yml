@@ -1,0 +1,16 @@
+name: "blahaj.crypt0r"
+author: "scuffed"
+category: rev,osint
+description: "My friend recently got his files encrypted by a piece of ransomware and lost an important file in the process. Help him decrypt it!\nChallenge files: https://drive.google.com/file/d/1jCBHK79edkc7KoHyFw8b1ypl8IjN5OiD/view?usp=sharing\nThe password to the zipfile is: `blahajctf`\n\n Mirror link (if the above isn't working): https://drive.google.com/file/d/1_lO7H0HRAMnWFDwzn1AGxcvHLUicFo4d/view?usp=sharing\n\nDisclaimer: This challenge may trip Windows Defender or any other antivirus solution you have installed. **All files involved in this challenge are safe. The "ransomware sample" has been defanged and does not perform any encryption operations.** It's advised to simply make an exception for this challenge rather than switching off your antivirus."
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{I_WANNA_CRY_SO_BAD}
+
+state: visible
+
+version: "0.1"

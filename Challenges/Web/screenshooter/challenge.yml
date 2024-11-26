@@ -1,0 +1,21 @@
+name: Screenshooter
+author: fern
+category: web
+description: I made an epic new website to take screenshots! Check it out!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{fL45k_D3veL0p0r}
+
+files:
+  - dist/app.py
+  - dist/requirements.txt
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

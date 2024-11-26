@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Calculation Result</h1>
+        <p class="text-center">Expression: <strong>{{ expression }}</strong></p>
+        {% if error %}
+            <p class="text-danger text-center">{{ error }}</p>
+        {% else %}
+            <p class="text-center">Result: <span id="result" class="font-weight-bold"></span></p>
+            <script>
+                try {
+                    const result = eval({{ expression }});
+                    document.getElementById('result').innerText = result;
+                } catch (error) {
+                    document.getElementById('result').innerText = 'Error in expression';
+                }
+            </script>
+        {% endif %}
+        <div class="text-center">
+            <button onclick="window.history.back();" class="btn btn-secondary">Go Back</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>

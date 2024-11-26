@@ -1,0 +1,7 @@
+name: long2bytes
+author: warri
+category: crypto
+description: It is almost an universal fact that every cryptographer's journey starts with them figuring out how to convert from bytes to integers and vice versa. But what about floats?
+
+flags:
+  - blahaj{h3l1o_l4tt1ce_my_0ld_fren}

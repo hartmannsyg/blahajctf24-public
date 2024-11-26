@@ -1,0 +1,8 @@
+name: Feedback Service
+author: FS
+category: pwn
+description: |
+    > You ever heard of the book "To kill a mockingbird"? What about to kill a canary?
+
+flags:
+    - blahaj{canary_master_101}

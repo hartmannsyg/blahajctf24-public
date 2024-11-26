@@ -1,0 +1,19 @@
+name: "assembly"
+author: "scuffed"
+category: rev
+description: Greetings reverse engineer! Here I've got a simple scrap of assembly source code written in MIPS. All I need of you is to determine the correct value of `flag` so that the `main` function returns `0` and not `-1` (in other words, the final value of the `a0` register is `0`)! Once solved, submit your flag as `blahaj{flag}` where `flag` is typed out in hex (e.g. `0xdeadbeef`). 
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{0x5caff01d}
+
+files:
+    - dist/challenge.s
+
+state: visible
+
+version: "0.1"

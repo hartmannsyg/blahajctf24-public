@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .message-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .message-header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .message-content {
+            /* padding: 20px; */
+            border: 1px solid #ccc;
+        }
+
+        .message-sender {
+            /* font-weight: bold; */
+            margin: 10px;
+            font-size: 1.25em;
+        }
+        
+        .message-title {
+            margin: 10px;
+            font-size: 1.25em;
+        }
+        
+        .message-body {
+            margin: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="message-container">
+        <div class="message-header">
+            <h1></h1>
+        </div>
+
+        <div class="message-content">
+            <div class="message-sender">
+                <b>From:</b>
+                <%- message.name %>
+            </div>
+            <hr>
+            <div class="message-title">
+                <b>Title:</b>
+                <%- message.title %>
+            </div>
+            <hr>
+            <div class="message-body">
+                <p>
+                    <%- message.body %>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

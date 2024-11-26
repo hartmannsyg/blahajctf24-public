@@ -1,0 +1,7 @@
+name: pascal
+author: warri
+category: crypto
+description: RSA is so old school. Can you defeat this cryptosystem which had appeared in DEFCON quals 2024?
+
+flags:
+  - blahaj{pal1i3r?_i_b4rely_kn0w_h3r!}

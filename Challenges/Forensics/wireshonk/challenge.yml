@@ -1,0 +1,16 @@
+name: "wireshonk"
+author: "scuffed"
+category: forensics
+description: "Keylogging isn't enough for me! I've decided to create a whole forensic dump of my friend's computer in hopes of extracting a super secret design that he received. From what I've heard, the design is even password protected with some super secret 6 digit code...\n\nLink to forensic dump: challenge here: https://drive.google.com/drive/folders/1Kyd216ASWkK-XY96IZeOaac7ZH7NK1Uy?usp=sharing\n\n Mirror link (if the above isn't working): https://drive.google.com/drive/folders/1RYyXWeSSbS_EjWrq43vuE00DN6JoWYHr?usp=sharing"
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{why_was_that_envvar_set}
+
+state: visible
+
+version: "0.1"

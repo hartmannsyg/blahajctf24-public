@@ -1,0 +1,21 @@
+name: Pwn 101
+author: fern
+category: pwn
+description: You beat pwn 100, here's a harder level for you! Can you exploit the program to get the flag?
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{0V3rRid1Ng_r3TuRn_4dDr3Ss}
+
+files:
+  - dist/chal.c
+  - dist/chal
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

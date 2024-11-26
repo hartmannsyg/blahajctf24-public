@@ -1,0 +1,7 @@
+name: Christmas Wi(sh)list
+author: samuzora
+category: pwn
+description: All I want for Christmas is /bin/sh
+
+flags:
+  - blahaj{i_h3ar_th0se_sl3igh_sh3lls_r1nging}

@@ -1,0 +1,7 @@
+name: bytes2long
+author: warri
+category: crypto
+description: Let's start off with simple bytes to int conversion! Follow the instructions in the file to get the flag
+
+flags:
+  - blahaj{h3llo_crypt0!}

@@ -1,0 +1,19 @@
+name: "ILOVEYOU"
+author: "scuffed"
+category: rev
+description: "Kindly check the attached love letter from me!\n\nDisclaimer: This challenge may trip Windows Defender or any other antivirus solution you have installed. **The file included with this challenge is perfectly safe and will not cause any impact to your computer.** It's advised to simply make an exception for this challenge rather than switching off your antivirus."
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{7hW0mP3d_tH47_PC0de_jU5T_f0r_fUN}
+
+files:
+    - dist/LOVE_LETTER_FOR_YOU.doc
+
+state: visible
+
+version: "0.1"

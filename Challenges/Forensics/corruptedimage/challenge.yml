@@ -1,0 +1,19 @@
+name: "corrupted image"
+author: "scuffed"
+category: forensics
+description: My friend sent me an artwork he made but the file seems to be corrupted :( Please fix it for me...
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{F4K3_1M6}
+
+files:
+    - dist/fix_me.jpg
+
+state: visible
+
+version: "0.1"

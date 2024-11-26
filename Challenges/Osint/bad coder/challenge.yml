@@ -1,0 +1,16 @@
+name: "bad coder"
+author: "scuffed"
+category: osint
+description: "My friend is learning to code but I think he's pretty bad at it. I've been trying to catch him lacking, maybe some poorly written code or something... all I've got is a username: `yattana_yattana`. Don't even know what it's for, can you help me out?"
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{c4r3fuL_w17h_y0UR_c0MM175}
+
+state: visible
+
+version: "0.1"

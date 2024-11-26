@@ -1,0 +1,20 @@
+name: User Management System
+author: fern
+category: web
+description: BlahajCorp just released a new User Management System to manage its employees across different divisions! Can you hack it and turn yourself into the admin?
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{d1Dnt_kN0w_pHP_C0u1D_0V3rf10W}
+
+files:
+  - dist/chal.php
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

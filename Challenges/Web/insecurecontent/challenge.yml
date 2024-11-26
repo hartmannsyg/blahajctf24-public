@@ -1,0 +1,12 @@
+name: Insecure Content
+author: hartmannsyg
+category: web
+description: Secure Content was secure, but this time its more (less) secure!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{n0t_50_s3cuRe_1sit}

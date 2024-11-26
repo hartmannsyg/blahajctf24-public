@@ -1,0 +1,22 @@
+name: "funny cats"
+author: "scuffed"
+category: rev,foren
+description: Hello vros... I've made a program that generates a bunch of funny cats. That's all! There are even some sample cats that someone else generated, for your viewing pleasure. Run the `main` program to generate your own!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{STEGANOKITTIES}
+
+files:
+    - dist/funny_cat_1.bmp
+    - dist/funny_cat_2.bmp
+    - dist/funny_cat_3.bmp
+    - dist/main
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,20 @@
+name: One time pad
+author: fern
+category: crypto
+description: Ever heard of the One-time pad? Surely, you cannot crack this scheme!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{uNusU4L_InF0_l3AK}
+
+files:
+  - dist/chal.py
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

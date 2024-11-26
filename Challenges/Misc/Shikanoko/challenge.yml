@@ -1,0 +1,12 @@
+name: Shikanokonokonoko
+author: hartmannsyg
+category: misc
+description: I almost went insane testing this. しかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたん.
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{my_d33r_Fr13nd_N0k0tAn}

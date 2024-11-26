@@ -1,0 +1,19 @@
+name: "keylogger"
+author: "scuffed"
+category: forensics
+description: "I've decided to install a keylogger on my friend's computer to find out some of his secrets! However, I don't know how to read the output of the keylogger??"
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{stop_reading_my_messages}
+
+files:
+    - dist/log.pcapng
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "crackme2"
+author: "scuffed"
+category: rev
+description: You can crack this file too, right?
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{r3v_15nt_7h47_h4rd!}
+
+# Link all files in dist
+files:
+    - dist/crackme2
+
+# The state of the challenge.
+# If the field is omitted, the challenge is visible by default.
+# If provided, the field can take one of two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

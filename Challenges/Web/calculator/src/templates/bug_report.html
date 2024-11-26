@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Report</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Bug Report</h1>
+        {% if success %}
+            <div class="alert alert-success" role="alert">
+                Thank you for your report! Admin will visit your URL soon...
+            </div>
+        {% elif error %}
+            <div class="alert alert-danger" role="alert">
+                {{ error }}
+            </div>
+        {% endif %}
+        <form action="{{ url_for('bug_report') }}" method="post" class="text-center">
+            <div class="form-group">
+                <input type="text" name="url" class="form-control" placeholder="Enter URL (must start with {{ page }})" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Bug Report</button>
+        </form>
+        <div class="text-center mt-4">
+            <a href="{{ url_for('index') }}" class="btn btn-secondary">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>

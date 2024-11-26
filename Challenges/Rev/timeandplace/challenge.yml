@@ -1,0 +1,19 @@
+name: "Time and Place"
+author: "scuffed"
+category: rev
+description: My Temp folder has been filled up with a bunch of empty cache directories??? And there's some weird file in there as well??? Send help pls...
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{totally_legit_temp_folders_:333}
+
+files:
+    - dist/dist.zip
+
+state: visible
+
+version: "0.1"

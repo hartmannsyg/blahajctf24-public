@@ -1,0 +1,22 @@
+name: One Call Away
+author: jiajie
+category: misc
+description: Here's an extremely simple pyjail, where the flag is just one print() call away.
+
+Wait, who swapped the last 2 lines?
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{3x1t_h4nDl3r}
+
+files:
+  - dist/jail.py
+
+connection_info: nc hostname 5000
+
+state: visible
+version: "0.1"

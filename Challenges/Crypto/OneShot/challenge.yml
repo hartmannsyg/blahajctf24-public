@@ -1,0 +1,9 @@
+name: OneShot
+author: OwOverflow!
+category: crypto
+description: |
+    > The glitch is spreading across the world, corrupting the bits needed to decrypt the key. The world machine needs your help!
+
+# The flag to use
+flags:
+    - blahaj{N1K0_02_N1C0_807H_423_CU73_N4M35}

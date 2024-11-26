@@ -1,0 +1,8 @@
+name: 2 wrongs dont make a right
+author: FS
+category: pwn
+description: |
+    > My friend recently told me 2 wrongs don't make a right but I think that's wrong. Prove me wrong. (Note: the value in a certain local variable on the stack can be different on the remote server but please don't bruteforce the value against the remote server)
+
+flags:
+    - blahaj{i_gUes3_i_w@s_wR0ng}

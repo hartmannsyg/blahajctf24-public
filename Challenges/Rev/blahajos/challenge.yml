@@ -1,0 +1,20 @@
+name: "blahajOS!"
+author: "scuffed"
+category: rev
+description: I managed to rip this OS image off a retro computer, but I can't gain access. Help me out! (to run the OS, run `qemu-system-x86_64 -drive format=raw,file=os.img`. To help you with the hacking of the program, the source code in assembly for the first sector of the OS has been provided.)
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+    - blahaj{B105_INTs}
+
+files:
+    - dist/boot.asm
+    - dist/os.img
+
+state: visible
+
+version: "0.1"

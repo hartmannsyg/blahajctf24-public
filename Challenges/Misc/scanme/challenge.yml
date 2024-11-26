@@ -1,0 +1,19 @@
+name: "scan me!"
+author: "scuffed"
+category: misc
+description: it's in the name, dude.
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+files:
+    - dist/image.png
+
+flags:
+    - blahaj{QR4ZY_R3P41R}
+
+state: visible
+
+version: "0.1"

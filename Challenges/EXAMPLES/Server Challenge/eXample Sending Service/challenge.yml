@@ -1,0 +1,9 @@
+name: eXample Sending Service
+author: Halogen
+category: web
+description: |
+    > As part of Halogen's cybersecurity exam, Blahaj has to get the flag only accessible by the administrator. But Blahaj cannot even type with his flippers, help him pass!
+
+# The flag to use
+flags:
+    - blahaj{d1d_y0u_f0rg0r_t0_upd4t3?}

@@ -1,0 +1,9 @@
+name: beginner_stream
+author: warri
+category: crypto
+description: 
+I was inspired by the internals of RC4 and made this custom stream cipher!
+This challenge has added comments to help ease one into the world of slightly harder cryptos!
+
+flags:
+  - blahaj{d0nt_m4k3_y0ur_st4te_4a5y_t0_r3c0ver!}

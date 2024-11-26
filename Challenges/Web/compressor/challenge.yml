@@ -1,0 +1,19 @@
+name: Data compressor
+author: fern
+category: web
+description: Compress your JSON data with this new service!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{Y4mL_n0T_S3cUre}
+
+files:
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

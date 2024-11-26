@@ -1,0 +1,7 @@
+name: beginner_rsa
+author: warri
+category: crypto
+description: RSA is hard when the factorisation of n is unknown. Would this be enough to break it?
+
+flags:
+  - blahaj{eqns_and_rsa_make_a_fine_couple}

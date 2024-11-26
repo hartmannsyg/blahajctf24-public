@@ -1,0 +1,20 @@
+name: Secure Content
+author: fern
+category: web
+description: I know there is an XSS somewhere in my website, but surely CSP will protect me, right?
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{D4nG13_tH3_MArKuP}
+
+files:
+  - dist/app.py
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"

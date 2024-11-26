@@ -1,0 +1,34 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Audio File"
+author: "fern89"
+category: forensics
+description: Found this suspicious audio file... can you help extract the flag?
+
+# Dynamic Scoring Moments
+# Value: Initial points
+# Decay: How many solves before minimum
+# Minimum: Minimum points
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+# The flag to use
+flags:
+    - blahaj{h1Dd3N_In_AuD10}
+
+# Link all files in dist
+files:
+    - dist/chal.wav
+
+# The state of the challenge.
+# If the field is omitted, the challenge is visible by default.
+# If provided, the field can take one of two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

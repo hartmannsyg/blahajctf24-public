@@ -1,0 +1,3 @@
+# Solution
+
+Solvescript in `solve/`.

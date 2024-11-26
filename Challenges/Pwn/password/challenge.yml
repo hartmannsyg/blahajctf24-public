@@ -1,0 +1,21 @@
+name: IsEven
+author: fern
+category: pwn
+description: I wrote this amazing new service to tell you if a number is even, try and hack it!
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - blahaj{g0T_Ov3rRide}
+
+files:
+  - dist/chal.c
+  - dist/chal
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"
